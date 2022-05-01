@@ -1,14 +1,3 @@
-[dns]
-server=/qq.com/119.29.29.29
-server=/*.qq.com/119.29.29.29
-server=/*.qpic.cn/119.29.29.29
-server=/*.m.qq.com/119.29.29.29
-server=/*.weixin.qq.com/119.29.29.29
-server=/*.tencent.com/119.29.29.29
-server=/weixin.com/119.29.29.29
-server=/*.weixin.com/119.29.29.29
-
-[Rule]
 # 腾讯
 USER-AGENT,*TencentMidasConnect*,DIRECT
 USER-AGENT,*WeChat*,DIRECT
