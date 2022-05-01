@@ -1,12 +1,12 @@
 [dns]
-qq.com = server:119.29.29.29
-*.qq.com = server:119.29.29.29
-*.qpic.cn= server:119.29.29.29
-*.m.qq.com = server:119.29.29.29
-*.weixin.qq.com = server:119.29.29.29
-*.tencent.com = server:119.29.29.29
-weixin.com = server:119.29.29.29
-*.weixin.com = server:119.29.29.29
+server=/qq.com/119.29.29.29
+server=/*.qq.com/119.29.29.29
+server=/*.qpic.cn/119.29.29.29
+server=/*.m.qq.com/119.29.29.29
+server=/*.weixin.qq.com/119.29.29.29
+server=/*.tencent.com/119.29.29.29
+server=/weixin.com/119.29.29.29
+server=/*.weixin.com/119.29.29.29
 
 [Rule]
 # 腾讯
